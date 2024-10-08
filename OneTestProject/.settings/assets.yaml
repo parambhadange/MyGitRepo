@@ -1,0 +1,65 @@
+name: OneTestProject
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /OneTestProject/src
+        type: javaClasspath
+  - name: ScreenerTest.recdata
+  - name: ScreenerTest.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /OneTestProject/ScreenerTest.recdata
+        type: recsessionRecdata
+  - name: ScreenerTest.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EF854DB9CF6ED0E144B03866646461
+    dependencies: 
+      - path: /OneTestProject/ScreenerTest.recsession
+        type: testRecsession
+      - path: /OneTestProject/screener_in_51a.ma
+        type: test#moeb.applicationPackage
+  - name: ScreenerTest_1728375533537.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1728375533537
+      tags: 
+      testId: A1EF854DB9CF6ED0E144B03866646461
+      testName: ScreenerTest
+    dependencies: 
+      - path: /OneTestProject/ScreenerTest.testsuite
+        type: statsSessionTest
+      - path: /OneTestProject/ScreenerTest_1728375533537.xmoebreport
+        type: statsSessionAsset
+      - path: /OneTestProject/ScreenerTest_1728375533537_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/ScreenerTest_1728375533537_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/ScreenerTest_1728375533537_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/ScreenerTest_1728375533537_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/ScreenerTest_1728375543371.executiondlr
+        type: statsSessionAsset
+  - name: ScreenerTest_1728375533537.xmoebreport
+  - name: ScreenerTest_1728375533537_orch!system.mstats
+  - name: ScreenerTest_1728375533537_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ScreenerTest_1728375533537_perf!localhost.mstats
+  - name: ScreenerTest_1728375533537_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ScreenerTest_1728375543371.executiondlr
+  - name: screener_in_51a.ma
+    type: moeb.applicationPackage
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: ScreenerTest_Test_A1EF854DB9CF6ED0E144B03866646461.java
+            type: com.ibm.rational.test.lt.generatedCode
