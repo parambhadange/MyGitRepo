@@ -7,6 +7,54 @@ resources:
     dependencies: 
       - path: /OneTestProject/src
         type: javaClasspath
+  - name: MoneyControl.recdata
+  - name: MoneyControl.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /OneTestProject/MoneyControl.recdata
+        type: recsessionRecdata
+  - name: MoneyControl.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EF855116750E30E144B03866646461
+    dependencies: 
+      - path: /OneTestProject/MoneyControl.recsession
+        type: testRecsession
+      - path: /OneTestProject/_google_com_d32.ma
+        type: test#moeb.applicationPackage
+  - name: MoneyControl_1728376938173.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1728376938173
+      tags: 
+      testId: A1EF855116750E30E144B03866646461
+      testName: MoneyControl
+    dependencies: 
+      - path: /OneTestProject/MoneyControl.testsuite
+        type: statsSessionTest
+      - path: /OneTestProject/MoneyControl_1728376938173.xmoebreport
+        type: statsSessionAsset
+      - path: /OneTestProject/MoneyControl_1728376938173_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/MoneyControl_1728376938173_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/MoneyControl_1728376938173_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/MoneyControl_1728376938173_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/MoneyControl_1728376945166.executiondlr
+        type: statsSessionAsset
+  - name: MoneyControl_1728376938173.xmoebreport
+  - name: MoneyControl_1728376938173_orch!system.mstats
+  - name: MoneyControl_1728376938173_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: MoneyControl_1728376938173_perf!localhost.mstats
+  - name: MoneyControl_1728376938173_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: MoneyControl_1728376945166.executiondlr
   - name: ScreenerTest.recdata
   - name: ScreenerTest.recsession
     type: com.ibm.rational.test.lt.recsession
@@ -55,11 +103,15 @@ resources:
   - name: ScreenerTest_1728375533537_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: ScreenerTest_1728375543371.executiondlr
+  - name: _google_com_d32.ma
+    type: moeb.applicationPackage
   - name: screener_in_51a.ma
     type: moeb.applicationPackage
   - name: src
     resources: 
       - name: test
         resources: 
+          - name: MoneyControl_Test_A1EF855116750E30E144B03866646461.java
+            type: com.ibm.rational.test.lt.generatedCode
           - name: ScreenerTest_Test_A1EF854DB9CF6ED0E144B03866646461.java
             type: com.ibm.rational.test.lt.generatedCode
