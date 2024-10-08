@@ -55,6 +55,84 @@ resources:
   - name: MoneyControl_1728376938173_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: MoneyControl_1728376945166.executiondlr
+  - name: MoneyControl_1728378318901.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1728378318901
+      tags: 
+      testId: A1EF855116750E30E144B03866646461
+      testName: MoneyControl
+    dependencies: 
+      - path: /OneTestProject/MoneyControl.testsuite
+        type: statsSessionTest
+      - path: /OneTestProject/MoneyControl_1728378318901.xmoebreport
+        type: statsSessionAsset
+      - path: /OneTestProject/MoneyControl_1728378318901_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/MoneyControl_1728378318901_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/MoneyControl_1728378318901_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/MoneyControl_1728378318901_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/MoneyControl_1728378325503.executiondlr
+        type: statsSessionAsset
+  - name: MoneyControl_1728378318901.xmoebreport
+  - name: MoneyControl_1728378318901_orch!system.mstats
+  - name: MoneyControl_1728378318901_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: MoneyControl_1728378318901_perf!localhost.mstats
+  - name: MoneyControl_1728378318901_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: MoneyControl_1728378325503.executiondlr
+  - name: Netflix.recdata
+  - name: Netflix.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /OneTestProject/Netflix.recdata
+        type: recsessionRecdata
+  - name: Netflix.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EF855649F50210E144B03866646461
+    dependencies: 
+      - path: /OneTestProject/Netflix.recsession
+        type: testRecsession
+      - path: /OneTestProject/netflix_com_3f8.ma
+        type: test#moeb.applicationPackage
+  - name: Netflix_1728379151347.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1728379151347
+      tags: 
+      testId: A1EF855649F50210E144B03866646461
+      testName: Netflix
+    dependencies: 
+      - path: /OneTestProject/Netflix.testsuite
+        type: statsSessionTest
+      - path: /OneTestProject/Netflix_1728379151347.xmoebreport
+        type: statsSessionAsset
+      - path: /OneTestProject/Netflix_1728379151347_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728379151347_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728379151347_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728379151347_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728379168349.executiondlr
+        type: statsSessionAsset
+  - name: Netflix_1728379151347.xmoebreport
+  - name: Netflix_1728379151347_orch!system.mstats
+  - name: Netflix_1728379151347_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1728379151347_perf!localhost.mstats
+  - name: Netflix_1728379151347_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1728379168349.executiondlr
   - name: ScreenerTest.recdata
   - name: ScreenerTest.recsession
     type: com.ibm.rational.test.lt.recsession
@@ -105,6 +183,8 @@ resources:
   - name: ScreenerTest_1728375543371.executiondlr
   - name: _google_com_d32.ma
     type: moeb.applicationPackage
+  - name: netflix_com_3f8.ma
+    type: moeb.applicationPackage
   - name: screener_in_51a.ma
     type: moeb.applicationPackage
   - name: src
@@ -112,6 +192,8 @@ resources:
       - name: test
         resources: 
           - name: MoneyControl_Test_A1EF855116750E30E144B03866646461.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Netflix_Test_A1EF855649F50210E144B03866646461.java
             type: com.ibm.rational.test.lt.generatedCode
           - name: ScreenerTest_Test_A1EF854DB9CF6ED0E144B03866646461.java
             type: com.ibm.rational.test.lt.generatedCode
