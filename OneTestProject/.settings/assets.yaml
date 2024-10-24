@@ -133,6 +133,66 @@ resources:
   - name: Netflix_1728379151347_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: Netflix_1728379168349.executiondlr
+  - name: Netflix_1728479953262.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1728479953262
+      tags: 
+      testId: A1EF855649F50210E144B03866646461
+      testName: Netflix
+    dependencies: 
+      - path: /OneTestProject/Netflix.testsuite
+        type: statsSessionTest
+      - path: /OneTestProject/Netflix_1728479953262.xmoebreport
+        type: statsSessionAsset
+      - path: /OneTestProject/Netflix_1728479953262_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728479953262_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728479953262_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728479953262_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728479964963.executiondlr
+        type: statsSessionAsset
+  - name: Netflix_1728479953262.xmoebreport
+  - name: Netflix_1728479953262_orch!system.mstats
+  - name: Netflix_1728479953262_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1728479953262_perf!localhost.mstats
+  - name: Netflix_1728479953262_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1728479964963.executiondlr
+  - name: Netflix_1728558134263.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1728558134263
+      tags: 
+      testId: A1EF855649F50210E144B03866646461
+      testName: Netflix
+    dependencies: 
+      - path: /OneTestProject/Netflix.testsuite
+        type: statsSessionTest
+      - path: /OneTestProject/Netflix_1728558134263.xmoebreport
+        type: statsSessionAsset
+      - path: /OneTestProject/Netflix_1728558134263_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728558134263_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728558134263_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728558134263_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/Netflix_1728558141338.executiondlr
+        type: statsSessionAsset
+  - name: Netflix_1728558134263.xmoebreport
+  - name: Netflix_1728558134263_orch!system.mstats
+  - name: Netflix_1728558134263_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1728558134263_perf!localhost.mstats
+  - name: Netflix_1728558134263_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1728558141338.executiondlr
   - name: ScreenerTest.recdata
   - name: ScreenerTest.recsession
     type: com.ibm.rational.test.lt.recsession
@@ -181,6 +241,36 @@ resources:
   - name: ScreenerTest_1728375533537_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: ScreenerTest_1728375543371.executiondlr
+  - name: ScreenerTest_1729171285006.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1729171285006
+      tags: 
+      testId: A1EF854DB9CF6ED0E144B03866646461
+      testName: ScreenerTest
+    dependencies: 
+      - path: /OneTestProject/ScreenerTest.testsuite
+        type: statsSessionTest
+      - path: /OneTestProject/ScreenerTest_1729171285006.xmoebreport
+        type: statsSessionAsset
+      - path: /OneTestProject/ScreenerTest_1729171285006_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/ScreenerTest_1729171285006_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/ScreenerTest_1729171285006_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestProject/ScreenerTest_1729171285006_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestProject/ScreenerTest_1729171308925.executiondlr
+        type: statsSessionAsset
+  - name: ScreenerTest_1729171285006.xmoebreport
+  - name: ScreenerTest_1729171285006_orch!system.mstats
+  - name: ScreenerTest_1729171285006_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ScreenerTest_1729171285006_perf!localhost.mstats
+  - name: ScreenerTest_1729171285006_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ScreenerTest_1729171308925.executiondlr
   - name: _google_com_d32.ma
     type: moeb.applicationPackage
   - name: netflix_com_3f8.ma
