@@ -1,4 +1,4 @@
-<CommonBaseEvent creationTime="2024-11-12T11:40:05.915Z" globalInstanceId="A1EFA0EADD6B1A70E648B73131666233" msg="RPXE0001W 1 users successfully added" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:02:56.284Z" globalInstanceId="A1EFA1A675B34260FE01B83431316565" msg="RPXE0001W 1 users successfully added" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -8,7 +8,7 @@
 		</children>
 	</extendedDataElements>
 	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
-		<values>1</values>
+		<values>0</values>
 	</extendedDataElements>
 	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
 		<values>49</values>
@@ -16,17 +16,17 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:21.691Z" msg="Unable to kill process java.lang.ProcessImpl@21c18782" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:03:54.386Z" msg="Unable to kill process java.lang.ProcessImpl@d4fb8b0b" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
 		<values>9</values>
 	</extendedDataElements>
 	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-		<values>57</values>
+		<values>48</values>
 	</extendedDataElements>
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
@@ -45,17 +45,17 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
 		<values>destroy</values>
 	</extendedDataElements>
-	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:26.720Z" msg="Failed to shutdown Driver Service Executor" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:03:59.406Z" msg="Failed to shutdown Driver Command Executor" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
 		<values>10</values>
 	</extendedDataElements>
 	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-		<values>57</values>
+		<values>48</values>
 	</extendedDataElements>
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
@@ -74,92 +74,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
 		<values>shutdownGracefully</values>
 	</extendedDataElements>
-	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:26.726Z" globalInstanceId="A1EFA0EAE936F860E648B73131666233" msg="CRRTWW0200E Exception : %1&#xA;org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0&#xA;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#xA;System info: host: &apos;STLININF0096&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_382&apos;&#xA;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xA;Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [], profile: UEsDBBQACAgIAEOJbFkAAAAAAAA...}, unhandledPromptBehavior: ignore}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [], profile: UEsDBBQACAgIAEOJbFkAAAAAAAA...}, unhandledPromptBehavior: ignore}}]&#xD;&#xA;&#x9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)&#xD;&#xA;&#x9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:118)&#xD;&#xA;&#x9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:106)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.browser.FirefoxBrowser.createBrowserDriver(FirefoxBrowser.java:220)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.browser.AbstractWebDriverBrowser.startBrowser(AbstractWebDriverBrowser.java:114)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.browser.AbstractWebDriverBrowser.startBrowser(AbstractWebDriverBrowser.java:1)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverStartBrowser.getBrowserDriver(WebDriverStartBrowser.java:218)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverStartBrowser.execute(WebDriverStartBrowser.java:98)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.WebDriverPlayer$1.execute(WebDriverPlayer.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeActionInternal(HybridPlayer.java:126)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeAction(HybridPlayer.java:112)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractWebPlayer.executeTestStep(AbstractWebPlayer.java:104)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestStep(PlaybackManager.java:321)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestSteps(PlaybackManager.java:250)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.DesktopBrowserExecution.executeSteps(DesktopBrowserExecution.java:122)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction.execute(MoebStepBatchAction.java:300)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;&#xA;&#x9;at java.lang.Thread.run(Thread.java:826)&#xD;&#xA;" severity="50" version="1.0.1">
-	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
-		<children name="CommonBaseEventLogRecord:name" type="string">
-			<values>SEVERE</values>
-		</children>
-		<children name="CommonBaseEventLogRecord:value" type="int">
-			<values>1000</values>
-		</children>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
-		<values>11</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-		<values>49</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
-		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
-		<values>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0&#xA;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#xA;System info: host: &apos;STLININF0096&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_382&apos;&#xA;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xA;Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [], profile: UEsDBBQACAgIAEOJbFkAAAAAAAA...}, unhandledPromptBehavior: ignore}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [], profile: UEsDBBQACAgIAEOJbFkAAAAAAAA...}, unhandledPromptBehavior: ignore}}]</values>
-		<values>org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)</values>
-		<values>org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)</values>
-		<values>org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)</values>
-		<values>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)</values>
-		<values>org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)</values>
-		<values>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)</values>
-		<values>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)</values>
-		<values>org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)</values>
-		<values>org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:164)</values>
-		<values>org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:118)</values>
-		<values>org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:106)</values>
-		<values>com.ibm.rational.test.rtw.webgui.selenium.browser.FirefoxBrowser.createBrowserDriver(FirefoxBrowser.java:220)</values>
-		<values>com.ibm.rational.test.rtw.webgui.selenium.browser.AbstractWebDriverBrowser.startBrowser(AbstractWebDriverBrowser.java:114)</values>
-		<values>com.ibm.rational.test.rtw.webgui.selenium.browser.AbstractWebDriverBrowser.startBrowser(AbstractWebDriverBrowser.java:1)</values>
-		<values>com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverStartBrowser.getBrowserDriver(WebDriverStartBrowser.java:218)</values>
-		<values>com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverStartBrowser.execute(WebDriverStartBrowser.java:98)</values>
-		<values>com.ibm.rational.test.rtw.webgui.selenium.WebDriverPlayer$1.execute(WebDriverPlayer.java:119)</values>
-		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)</values>
-		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)</values>
-		<values>com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeActionInternal(HybridPlayer.java:126)</values>
-		<values>com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeAction(HybridPlayer.java:112)</values>
-		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractWebPlayer.executeTestStep(AbstractWebPlayer.java:104)</values>
-		<values>com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestStep(PlaybackManager.java:321)</values>
-		<values>com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestSteps(PlaybackManager.java:250)</values>
-		<values>com.ibm.rational.test.rtw.webgui.execution.DesktopBrowserExecution.executeSteps(DesktopBrowserExecution.java:122)</values>
-		<values>com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction.execute(MoebStepBatchAction.java:300)</values>
-		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
-		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
-		<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
-		<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
-		<values>java.lang.Thread.run(Thread.java:826)</values>
-	</extendedDataElements>
-	<sourceComponentId application="Test UI Web UI Tester" component="com.ibm.rational.test.rtw.webgui.execution" componentIdType="Functional test Execution" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.rtw.webgui.execution" componentType="Desktop Execution"/>
-	<situation categoryName="ReportSituation">
-		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
-	</situation>
-</CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:26.726Z" globalInstanceId="A1EFA0EAE9399070E648B73131666233" msg="CRRTWW0200E Exception : driver null" severity="50" version="1.0.1">
-	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
-		<children name="CommonBaseEventLogRecord:name" type="string">
-			<values>SEVERE</values>
-		</children>
-		<children name="CommonBaseEventLogRecord:value" type="int">
-			<values>1000</values>
-		</children>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
-		<values>12</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-		<values>49</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
-		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
-	</extendedDataElements>
-	<sourceComponentId application="Test UI Web UI Tester" component="com.ibm.rational.test.rtw.webgui.execution" componentIdType="Functional test Execution" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.rtw.webgui.execution" componentType="Desktop Execution"/>
-	<situation categoryName="ReportSituation">
-		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
-	</situation>
-</CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:29.272Z" globalInstanceId="A1EFA0EAEABB9C90E648B73131666233" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTStopUserEvent: Playback of UI step has a fatal error, &apos;Exit User&apos; action taken&#xA;in Test Action:&#xA;&#x9;Start www.netflix.com&#xA;&#x9;Netflix&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTStopUserEvent: Playback of UI step has a fatal error, &apos;Exit User&apos; action taken&#xD;&#xA;&#x9;at test.Netflix_Test_A1EF8D32EB373600CA00E13039666162.execute(Netflix_Test_A1EF8D32EB373600CA00E13039666162.java:75)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;&#xA;&#x9;at java.lang.Thread.run(Thread.java:826)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTStopUserEvent: Playback of UI step has a fatal error&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:00.626Z" globalInstanceId="A1EFA1A69AD7ED20FE01B83431316565" msg="RPXE0001W 7.7.300 Engine STOP reason Unknown" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -177,30 +97,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
-		<values>com.ibm.rational.test.lt.kernel.services.RPTStopUserEvent: Playback of UI step has a fatal error, &apos;Exit User&apos; action taken</values>
-		<values>test.Netflix_Test_A1EF8D32EB373600CA00E13039666162.execute(Netflix_Test_A1EF8D32EB373600CA00E13039666162.java:75)</values>
-		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
-		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
-		<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
-		<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
-		<values>java.lang.Thread.run(Thread.java:826)</values>
-		<children name="Cause" type="stringArray">
-			<values>com.ibm.rational.test.lt.kernel.services.RPTStopUserEvent: Playback of UI step has a fatal error</values>
-			<values>test.Netflix_Test_A1EF8D32EB373600CA00E13039666162.execute(Netflix_Test_A1EF8D32EB373600CA00E13039666162.java:75)</values>
-			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
-			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
-			<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
-			<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
-			<values>java.lang.Thread.run(Thread.java:826)</values>
-		</children>
-	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:29.824Z" globalInstanceId="A1EFA0EAEB0FB000E648B73131666233" msg="CRRTWW0200E Exception : driver null" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:00.626Z" globalInstanceId="A1EFA1A69AD83B40FE01B83431316565" msg="RPXE0001W Problem Determination Log Statistics" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -218,12 +120,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="Test UI Web UI Tester" component="com.ibm.rational.test.rtw.webgui.execution" componentIdType="Functional test Execution" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.rtw.webgui.execution" componentType="Desktop Execution"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:29.830Z" globalInstanceId="A1EFA0EAEB109A60E648B73131666233" msg="CRRTWW0200E Exception : driver null" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:00.626Z" globalInstanceId="A1EFA1A69AD83B41FE01B83431316565" msg="RPXE0001W PDLog rejected=0" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -241,12 +143,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="Test UI Web UI Tester" component="com.ibm.rational.test.rtw.webgui.execution" componentIdType="Functional test Execution" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.rtw.webgui.execution" componentType="Desktop Execution"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:30.071Z" globalInstanceId="A1EFA0EAEB358780E648B73131666233" msg="RPXE0001W 7.7.300 Engine STOP reason Unknown" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:00.628Z" globalInstanceId="A1EFA1A69AD86250FE01B83431316565" msg="RPXE0001W BREW actions completed = 23" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -264,12 +166,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:30.072Z" globalInstanceId="A1EFA0EAEB358781E648B73131666233" msg="RPXE0001W Problem Determination Log Statistics" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:00.628Z" globalInstanceId="A1EFA1A69AD88960FE01B83431316565" msg="RPXE0001W BREW largest pool size = 10" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -287,12 +189,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:30.072Z" globalInstanceId="A1EFA0EAEB358782E648B73131666233" msg="RPXE0001W PDLog rejected=0" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:00.628Z" globalInstanceId="A1EFA1A69AD8D780FE01B83431316565" msg="RPXE0001W Engine STOP commencing worker finalizers" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -310,12 +212,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:30.074Z" globalInstanceId="A1EFA0EAEB35D5A0E648B73131666233" msg="RPXE0001W BREW actions completed = 13" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:00.737Z" globalInstanceId="A1EFA1A69AE90420FE01B83431316565" msg="RPXE0001W Engine STOP wait for finalizers done  completed=10 poolsize=10" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -333,12 +235,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:30.074Z" globalInstanceId="A1EFA0EAEB35D5A1E648B73131666233" msg="RPXE0001W BREW largest pool size = 10" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:01.864Z" globalInstanceId="A1EFA1A69B9522A0FE01B83431316565" msg="RPXE0001W Virtual User Stop Statistics" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -356,12 +258,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:30.074Z" globalInstanceId="A1EFA0EAEB37AA60E648B73131666233" msg="RPXE0001W Engine STOP commencing worker finalizers" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:01.864Z" globalInstanceId="A1EFA1A69B9597D0FE01B83431316565" msg="RPXE0001W Stop reason Unknown:  1 users" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -379,12 +281,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:30.182Z" globalInstanceId="A1EFA0EAEB465060E648B73131666233" msg="RPXE0001W Engine STOP wait for finalizers done  completed=10 poolsize=10" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:01.868Z" globalInstanceId="A1EFA1A69B95BEE0FE01B83431316565" msg="RPXE0001W    [DefaultUserGroup][000001] stopped at 66740" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -402,12 +304,12 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:32.606Z" globalInstanceId="A1EFA0EAECB82FE0E648B73131666233" msg="RPXE0001W Virtual User Stop Statistics" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-13T10:04:11.253Z" globalInstanceId="A1EFA1A6A12DA160FE01B83431316565" msg="RPXE0001W *** Runner process finished normally ***   &lt;main&gt;" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -425,76 +327,7 @@
 	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
 		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
 	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
-	<situation categoryName="ReportSituation">
-		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
-	</situation>
-</CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:32.606Z" globalInstanceId="A1EFA0EAECB82FE1E648B73131666233" msg="RPXE0001W Stop reason Exception Encountered:  1 users" severity="50" version="1.0.1">
-	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
-		<children name="CommonBaseEventLogRecord:name" type="string">
-			<values>SEVERE</values>
-		</children>
-		<children name="CommonBaseEventLogRecord:value" type="int">
-			<values>1000</values>
-		</children>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
-		<values>24</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-		<values>49</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
-		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
-	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
-	<situation categoryName="ReportSituation">
-		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
-	</situation>
-</CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:32.606Z" globalInstanceId="A1EFA0EAECB8CC20E648B73131666233" msg="RPXE0001W    [DefaultUserGroup][000001] stopped at 25922" severity="50" version="1.0.1">
-	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
-		<children name="CommonBaseEventLogRecord:name" type="string">
-			<values>SEVERE</values>
-		</children>
-		<children name="CommonBaseEventLogRecord:value" type="int">
-			<values>1000</values>
-		</children>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
-		<values>25</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-		<values>49</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
-		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
-	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
-	<situation categoryName="ReportSituation">
-		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
-	</situation>
-</CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-12T11:40:39.836Z" globalInstanceId="A1EFA0EAF10765C0E648B73131666233" msg="RPXE0001W *** Runner process finished normally ***   &lt;main&gt;" severity="50" version="1.0.1">
-	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
-		<children name="CommonBaseEventLogRecord:name" type="string">
-			<values>SEVERE</values>
-		</children>
-		<children name="CommonBaseEventLogRecord:value" type="int">
-			<values>1000</values>
-		</children>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
-		<values>26</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-		<values>49</values>
-	</extendedDataElements>
-	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
-		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
-	</extendedDataElements>
-	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.5" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.30.4.27" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
 	<situation categoryName="ReportSituation">
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
