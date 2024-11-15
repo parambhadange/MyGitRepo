@@ -205,6 +205,96 @@ resources:
   - name: Netflix_1731655797876_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: Netflix_1731655803900.executiondlr
+  - name: Netflix_1731657442834.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1731657442834
+      tags: 
+      testId: A1EF8D32EB373600CA00E13039666162
+      testName: Netflix
+    dependencies: 
+      - path: /UItestProject1/Netflix.testsuite
+        type: statsSessionTest
+      - path: /UItestProject1/Netflix_1731657442834.xmoebreport
+        type: statsSessionAsset
+      - path: /UItestProject1/Netflix_1731657442834_orch!system.mstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731657442834_orch!system.rstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731657442834_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731657442834_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731657452685.executiondlr
+        type: statsSessionAsset
+  - name: Netflix_1731657442834.xmoebreport
+  - name: Netflix_1731657442834_orch!system.mstats
+  - name: Netflix_1731657442834_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1731657442834_perf!localhost.mstats
+  - name: Netflix_1731657442834_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1731657452685.executiondlr
+  - name: Netflix_1731660551858.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1731660551858
+      tags: 
+      testId: A1EF8D32EB373600CA00E13039666162
+      testName: Netflix
+    dependencies: 
+      - path: /UItestProject1/Netflix.testsuite
+        type: statsSessionTest
+      - path: /UItestProject1/Netflix_1731660551858.xmoebreport
+        type: statsSessionAsset
+      - path: /UItestProject1/Netflix_1731660551858_orch!system.mstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731660551858_orch!system.rstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731660551858_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731660551858_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731660565336.executiondlr
+        type: statsSessionAsset
+  - name: Netflix_1731660551858.xmoebreport
+  - name: Netflix_1731660551858_orch!system.mstats
+  - name: Netflix_1731660551858_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1731660551858_perf!localhost.mstats
+  - name: Netflix_1731660551858_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1731660565336.executiondlr
+  - name: Netflix_1731661435565.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1731661435565
+      tags: 
+      testId: A1EF8D32EB373600CA00E13039666162
+      testName: Netflix
+    dependencies: 
+      - path: /UItestProject1/Netflix.testsuite
+        type: statsSessionTest
+      - path: /UItestProject1/Netflix_1731661435565.xmoebreport
+        type: statsSessionAsset
+      - path: /UItestProject1/Netflix_1731661435565_orch!system.mstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731661435565_orch!system.rstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731661435565_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731661435565_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /UItestProject1/Netflix_1731661443210.executiondlr
+        type: statsSessionAsset
+  - name: Netflix_1731661435565.xmoebreport
+  - name: Netflix_1731661435565_orch!system.mstats
+  - name: Netflix_1731661435565_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1731661435565_perf!localhost.mstats
+  - name: Netflix_1731661435565_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_1731661443210.executiondlr
   - name: netflix_com_ad1.ma
     type: moeb.applicationPackage
   - name: src
