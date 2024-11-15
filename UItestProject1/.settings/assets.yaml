@@ -49,6 +49,48 @@ resources:
   - name: 'Copy of Netflix_1731665745496_perf!localhost.rstats'
     type: com.ibm.rational.test.lt.stats.raw
   - name: 'Copy of Netflix_1731665754185.executiondlr'
+  - name: 'DEMO Netflix.testsuite'
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EFA33C6EF1CBE9C8FDB23136326133
+    dependencies: 
+      - path: /UItestProject1/Netflix.recsession
+        type: testRecsession
+      - path: /UItestProject1/netflix_com_ad1.ma
+        type: test#moeb.applicationPackage
+  - name: 'DEMO Netflix_1731666601076.stats'
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1731666601076
+      tags: 
+      testId: A1EFA33C6EF1CBE9C8FDB23136326133
+      testName: 'DEMO Netflix'
+    dependencies: 
+      - path: '/UItestProject1/DEMO Netflix.testsuite'
+        type: statsSessionTest
+      - path: '/UItestProject1/DEMO Netflix_1731666601076.xmoebreport'
+        type: statsSessionAsset
+      - path: '/UItestProject1/DEMO Netflix_1731666601076_orch!system.mstats'
+        type: statsSessionStore
+      - path: '/UItestProject1/DEMO Netflix_1731666601076_orch!system.rstats'
+        type: statsSessionStore
+      - path: '/UItestProject1/DEMO Netflix_1731666601076_perf!localhost.mstats'
+        type: statsSessionStore
+      - path: '/UItestProject1/DEMO Netflix_1731666601076_perf!localhost.rstats'
+        type: statsSessionStore
+      - path: '/UItestProject1/DEMO Netflix_1731666618932.executiondlr'
+        type: statsSessionAsset
+  - name: 'DEMO Netflix_1731666601076.xmoebreport'
+  - name: 'DEMO Netflix_1731666601076_orch!system.mstats'
+  - name: 'DEMO Netflix_1731666601076_orch!system.rstats'
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: 'DEMO Netflix_1731666601076_perf!localhost.mstats'
+  - name: 'DEMO Netflix_1731666601076_perf!localhost.rstats'
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: 'DEMO Netflix_1731666618932.executiondlr'
   - name: Netflix.recdata
   - name: Netflix.recsession
     type: com.ibm.rational.test.lt.recsession
@@ -344,6 +386,8 @@ resources:
       - name: test
         resources: 
           - name: CopyOfNetflix_Test_A1EFA33A70D3E488C8FDB23136326133.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: DEMONetflix_Test_A1EFA33C6EF1CBE9C8FDB23136326133.java
             type: com.ibm.rational.test.lt.generatedCode
           - name: Netflix_Test_A1EF8D32EB373600CA00E13039666162.java
             type: com.ibm.rational.test.lt.generatedCode
