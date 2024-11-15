@@ -1,4 +1,4 @@
-<CommonBaseEvent creationTime="2024-11-15T07:02:35.133Z" globalInstanceId="A1EFA31F9806C970E417B33066363238" msg="RPXE0001W 1 users successfully added" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:07:47.033Z" globalInstanceId="A1EFA32051D4DB80CFA4B43839316436" msg="RPXE0001W 1 users successfully added" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -21,7 +21,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:46.047Z" msg="Unable to kill process java.lang.ProcessImpl@e4ad1fd0" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:35.273Z" msg="Unable to kill process java.lang.ProcessImpl@6a65eef2" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
 		<values>9</values>
 	</extendedDataElements>
@@ -50,7 +50,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:51.054Z" msg="Failed to shutdown Driver Command Executor" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:40.284Z" msg="Failed to shutdown Driver Command Executor" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
 		<values>10</values>
 	</extendedDataElements>
@@ -79,7 +79,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:51.846Z" globalInstanceId="A1EFA31FC5227C60E417B33066363238" msg="RPXE0001W 7.7.300 Engine STOP reason Unknown" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:41.445Z" globalInstanceId="A1EFA32071BFC950CFA4B43839316436" msg="RPXE0001W 7.7.300 Engine STOP reason Unknown" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -102,7 +102,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:51.846Z" globalInstanceId="A1EFA31FC5227C61E417B33066363238" msg="RPXE0001W Problem Determination Log Statistics" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:41.445Z" globalInstanceId="A1EFA32071C01770CFA4B43839316436" msg="RPXE0001W Problem Determination Log Statistics" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -125,7 +125,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:51.846Z" globalInstanceId="A1EFA31FC5227C62E417B33066363238" msg="RPXE0001W PDLog rejected=0" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:41.445Z" globalInstanceId="A1EFA32071C03E80CFA4B43839316436" msg="RPXE0001W PDLog rejected=0" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -148,7 +148,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:51.846Z" globalInstanceId="A1EFA31FC5227C63E417B33066363238" msg="RPXE0001W BREW actions completed = 23" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:41.447Z" globalInstanceId="A1EFA32071C03E81CFA4B43839316436" msg="RPXE0001W BREW actions completed = 23" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -171,7 +171,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:51.846Z" globalInstanceId="A1EFA31FC522CA80E417B33066363238" msg="RPXE0001W BREW largest pool size = 10" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:41.448Z" globalInstanceId="A1EFA32071C03E82CFA4B43839316436" msg="RPXE0001W BREW largest pool size = 10" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -194,7 +194,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:51.846Z" globalInstanceId="A1EFA31FC522F190E417B33066363238" msg="RPXE0001W Engine STOP commencing worker finalizers" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:41.448Z" globalInstanceId="A1EFA32071C03E83CFA4B43839316436" msg="RPXE0001W Engine STOP commencing worker finalizers" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -217,7 +217,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:51.957Z" globalInstanceId="A1EFA31FC5336C50E417B33066363238" msg="RPXE0001W Engine STOP wait for finalizers done  completed=10 poolsize=10" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:41.556Z" globalInstanceId="A1EFA32071D0B940CFA4B43839316436" msg="RPXE0001W Engine STOP wait for finalizers done  completed=10 poolsize=10" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -240,7 +240,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:54.104Z" globalInstanceId="A1EFA31FC67B0780E417B33066363238" msg="RPXE0001W Virtual User Stop Statistics" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:42.876Z" globalInstanceId="A1EFA320729A23C0CFA4B43839316436" msg="RPXE0001W Virtual User Stop Statistics" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -263,7 +263,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:54.104Z" globalInstanceId="A1EFA31FC67B0781E417B33066363238" msg="RPXE0001W Stop reason Unknown:  1 users" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:42.876Z" globalInstanceId="A1EFA320729A98F0CFA4B43839316436" msg="RPXE0001W Stop reason Unknown:  1 users" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -286,7 +286,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:03:54.104Z" globalInstanceId="A1EFA31FC67B0782E417B33066363238" msg="RPXE0001W    [DefaultUserGroup][000001] stopped at 77781" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:42.876Z" globalInstanceId="A1EFA320729A98F1CFA4B43839316436" msg="RPXE0001W    [DefaultUserGroup][000001] stopped at 55089" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
@@ -309,7 +309,7 @@
 		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 	</situation>
 </CommonBaseEvent>
-<CommonBaseEvent creationTime="2024-11-15T07:04:01.504Z" globalInstanceId="A1EFA31FCAE42E00E417B33066363238" msg="RPXE0001W *** Runner process finished normally ***   &lt;main&gt;" severity="50" version="1.0.1">
+<CommonBaseEvent creationTime="2024-11-15T07:08:50.315Z" globalInstanceId="A1EFA32077093DB0CFA4B43839316436" msg="RPXE0001W *** Runner process finished normally ***   &lt;main&gt;" severity="50" version="1.0.1">
 	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 		<children name="CommonBaseEventLogRecord:name" type="string">
 			<values>SEVERE</values>
